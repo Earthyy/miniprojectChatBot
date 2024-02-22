@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid peru; */
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.banner {
+    background-color: antiquewhite;
+    color: brown;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    margin-top: 20px;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+.banner-info img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main div {
+    padding: 20px;
+}
+
+main div p {
+    margin-top: 10px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: chocolate;
+    padding: 20px;
+    text-align: center;
+}
+
+.Cho h3{
+    text-align: center;
+}
+
+.Cho img {
+    width: 75%;
+    border-radius: 20px;
+    
+}
+
+.Cho p {
+    text-align: center;
+}
+
+.S h3 {
+    text-align: center;
+}
+
+.S img {
+    width: 75%;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.S p {
+    text-align: center;
+}
+
+.Ma h3 {
+    text-align: center;
+}
+
+.Ma img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.Ma p {
+    text-align: center;
+}
+
+.pk h3{
+    text-align: center;
+}
+
+.pk img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.pk p {
+    text-align: center;
+}
+
+.Mn h3{
+    text-align: center;
+}
+
+.Mn img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.Mn p {
+    text-align: center;
+}
+
+.Cc h3{
+    text-align: center;
+}
+
+.Cc img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.Cc p {
+    text-align: center;
+}
